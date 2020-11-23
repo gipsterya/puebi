@@ -1,0 +1,28 @@
+[build]
+  publish = "build"
+  command = "yarn run build"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Content-Security-Policy = "form-action https:"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Strict-Transport-Security = "max-age=2592000"
+
+[[headers]]
+  for = "*.js"
+  [headers.values]
+	   cache-control = '''
+	   max-age=31536000,
+	   public,
+	   immutable'''
+
+[[headers]]
+  for = "*.css"
+  [headers.values]
+	   cache-control = '''
+	   max-age=31536000,
+	   public,
+	   immutable'''

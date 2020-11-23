@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "plugin:react"
+  ],
+  "plugins": ["react"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "react/prop-types": 0,
+    "react/react-in-jsx-scope": "off",
+    "lines-between-class-members": ["error", "always"],
+    "padding-line-between-statements": "off"
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "browser": true
+  }
+}

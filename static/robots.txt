@@ -1,0 +1,7 @@
+User-agent: Twitterbot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+Sitemap: https://puebi.js.org/sitemap.xml

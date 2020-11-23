@@ -1,0 +1,44 @@
+{
+  "name": "puebi",
+  "description": "pedoman umum ejaan bahasa indonesia",
+  "homepage": "https://puebi.js.org",
+  "author": "gigip andreas <gigip@gipsterya.com>",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gipsterya/puebi"
+  },
+  "dependencies": {
+    "@docusaurus/core": "2.0.0-alpha.68",
+    "@docusaurus/plugin-pwa": "2.0.0-alpha.68",
+    "@docusaurus/preset-classic": "2.0.0-alpha.68",
+    "@mdx-js/react": "1.6.21",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "eslint": "7.13.0",
+    "eslint-plugin-react": "7.21.5",
+    "prettier": "2.1.2"
+  },
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "dev": "docusaurus start",
+    "build": "docusaurus build",
+    "serve": "docusaurus serve",
+    "format": "prettier --write **/*.{js,jsx,json} && eslint **/*.{js,jsx} --fix"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
