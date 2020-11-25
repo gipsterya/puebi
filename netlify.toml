@@ -1,6 +1,7 @@
 [build]
   publish = "build"
   command = "yarn run build"
+  ignore = "git diff --quiet HEAD^ HEAD -- examples/"
 
 [[headers]]
   for = "/*"
@@ -21,6 +22,14 @@
 
 [[headers]]
   for = "*.css"
+  [headers.values]
+	   cache-control = '''
+	   max-age=31536000,
+	   public,
+	   immutable'''
+
+[[headers]]
+  for = "*.svg"
   [headers.values]
 	   cache-control = '''
 	   max-age=31536000,

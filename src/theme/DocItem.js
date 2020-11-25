@@ -34,6 +34,7 @@ function DocItem(props) {
         <meta name="keywords" content={config.keywords} />
         <meta name="description" content={config.siteDesc} />
         {permalink && <link rel="canonical" href={siteUrl + permalink} />}
+        <meta name="google-site-verification" content="IpXgI6VHJp_iaoYLH3gCQ4n2kqF83E2WthOjGv6pQl0" />
 
         <meta property="og:title" content={title} />
         <meta property="og:type" content="website" />
