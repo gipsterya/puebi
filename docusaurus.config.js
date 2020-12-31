@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'PUEBI AWP',
+  title: 'PUEBI Daring',
   tagline: 'Pedoman Umum Ejaan Bahasa Indonesia',
   baseUrl: '/',
   url: 'https://puebi.js.org',
