@@ -28,9 +28,23 @@
 	   immutable'''
 
 [[headers]]
+  for = "*.png"
+  [headers.values]
+	   cache-control = '''
+	   max-age=31536000,
+	   public,
+	   immutable'''
+
+[[headers]]
   for = "*.svg"
   [headers.values]
 	   cache-control = '''
 	   max-age=31536000,
 	   public,
 	   immutable'''
+
+[[redirects]]
+  from = "https://puebi.netlify.app/*"
+  to = "https://puebi.js.org/:splat"
+  status = 301
+  force = true

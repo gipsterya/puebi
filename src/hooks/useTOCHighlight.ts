@@ -22,8 +22,6 @@ function useTOCHighlight(
         })
 
         if (firstAnchorUnderViewportTop) {
-          // If first anchor in viewport is under a certain threshold, we consider it's not the active anchor.
-          // In such case, the active anchor is the previous one (if it exists), that may be above the viewport
           if (
             firstAnchorUnderViewportTop.getBoundingClientRect().top >= topOffset
           ) {
@@ -33,14 +31,11 @@ function useTOCHighlight(
               ]
             return previousAnchor ?? firstAnchorUnderViewportTop;
           }
-          // If the anchor is at the top of the viewport, we consider it's the first anchor
           else {
             return firstAnchorUnderViewportTop;
           }
         }
-        // no anchor under viewport top? (ie we are at the bottom of the page)
         else {
-          // highlight the last anchor found
           return headersAnchors[headersAnchors.length - 1]
         }
       }
@@ -51,7 +46,6 @@ function useTOCHighlight(
         let index = 0
         let itemHighlighted = false
 
-        // @ts-expect-error: Must be <a> tags.
         const links: HTMLCollectionOf<HTMLAnchorElement> = document.getElementsByClassName(
           linkClassName,
         )

@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'Pedoman Umum Ejaan Bahasa Indonesia',
   baseUrl: '/',
   url: 'https://puebi.js.org',
-  favicon: 'img/logo.png',
+  favicon: 'images/logo.png',
   onBrokenLinks: 'ignore',
   projectName: 'puebi',
   plugins: [
@@ -18,7 +18,7 @@ module.exports = {
           {
             tagName: 'link',
             rel: 'icon',
-            href: 'img/logo.png',
+            href: 'images/logo.png',
           },
           {
             tagName: 'link',
@@ -43,18 +43,17 @@ module.exports = {
           {
             tagName: 'link',
             rel: 'apple-touch-icon',
-            href: 'img/logo.png',
+            href: 'images/logo.png',
           },
           {
             tagName: 'link',
             rel: 'mask-icon',
-            href: 'img/logo.svg',
-            color: 'rgb(62, 204, 94)',
+            href: 'images/logo.png',
           },
           {
             tagName: 'meta',
             name: 'msapplication-TileImage',
-            content: 'img/logo.png',
+            content: 'images/logo.png',
           },
           {
             tagName: 'meta',
@@ -67,11 +66,11 @@ module.exports = {
   ],
   themeConfig: {
     navbar: {
-      title: 'PUEBI AWP',
+      title: 'PUEBI Daring',
       logo: {
         alt: 'Logo',
-        src: 'img/logo.svg',
-        srcDark: 'img/logo.svg',
+        src: 'images/logo.png',
+        srcDark: 'images/logo.png',
       },
       items: [
         {
@@ -90,7 +89,7 @@ module.exports = {
       style: 'dark',
       logo: {
         alt: 'CC BY-SA 4.0',
-        src: 'img/cc-by-sa.svg',
+        src: 'images/cc-by-sa.svg',
       },
       copyright: 'CC BY-SA 4.0 - Gigip Andreas',
     },

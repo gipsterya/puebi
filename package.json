@@ -3,7 +3,7 @@
   "description": "pedoman umum ejaan bahasa indonesia",
   "homepage": "https://puebi.js.org",
   "author": "gigip andreas <gigip@gipsterya.com>",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "private": true,
   "repository": {
@@ -19,15 +19,15 @@
     "react-dom": "16.13.1"
   },
   "devDependencies": {
-    "eslint": "7.13.0",
-    "eslint-plugin-react": "7.21.5",
-    "prettier": "2.1.2"
+    "eslint": "7.16.0",
+    "eslint-plugin-react": "7.22.0",
+    "prettier": "2.2.1"
   },
   "scripts": {
     "docusaurus": "docusaurus",
-    "dev": "docusaurus start",
     "build": "docusaurus build",
     "serve": "docusaurus serve",
+    "start": "docusaurus start",
     "format": "prettier --write **/*.{js,jsx,json} && eslint **/*.{js,jsx} --fix"
   },
   "browserslist": {

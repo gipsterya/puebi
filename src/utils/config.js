@@ -1,18 +1,13 @@
 const config = {
-  siteTitle: 'PUEBI AWP',
+  siteTitle: 'PUEBI Daring',
   siteDesc: 'Pedoman Umum Ejaan Bahasa Indonesia',
-  siteFav: 'img/logo.png',
-  siteBanner: 'img/puebi.jpg',
+  siteLogo: 'images/logo.png',
+  siteBanner: 'images/banner.png',
   siteUrl: 'https://puebi.js.org',
   pathPrefix: '/',
   creatorName: '@gipsterya',
-  creatorEmail: 'gigip@gipsterya.com',
   repo: 'https://github.com/gipsterya/puebi',
-  keywords: [
-    'puebi',
-    'puebi daring',
-    'pedoman umum ejaan bahasa indonesia',
-  ],
+  keywords: [ 'puebi', 'puebi daring', 'pedoman umum ejaan bahasa indonesia' ],
 }
 
 export default config

@@ -1,13 +1,13 @@
 ## Pedoman Umum Ejaan Bahasa Indonesia
 
 <p align="center">
-  <img alt="PUEBI Daring" src="static/img/puebi.jpg" />
+  <img alt="PUEBI Daring" src="static/images/banner.png" />
 </p>
 <br />
 
-PUEBI Aplikasi Web Progresif (AWP) adalah pengembangan dari PUEBI Daring buatan [Ivan Lanin](https://github.com/ivanlanin/puebi) dengan penambahan fitur dan penerapan [web modern](https://jamstack.org/what-is-jamstack/).
+Proyek ini adalah pengembangan dari PUEBI Daring buatan [Ivan Lanin](https://github.com/ivanlanin/puebi) dengan penambahan fitur dan penerapan [web modern](https://jamstack.org/what-is-jamstack/).
 
-Ini tersedia dalam bentuk web, tetapi dirancang khusus untuk dijalankan sebagai aplikasi. PUEBI AWP bisa dipasang di ponsel maupun komputer.
+Ini tersedia dalam bentuk web, tetapi dirancang khusus untuk dijalankan sebagai aplikasi. PUEBI Daring bisa dipasang di ponsel maupun komputer.
 
 ---
 
@@ -34,37 +34,31 @@ Peramban yang didukung:
 - **iOS**: Safari
 - **Android/Windows**: Chrome, Edge
 
-Secara teknis, jika peramban Anda mendukung, versi web dan aplikasi sama-sama menerapkan mode luring. Keduanya memanfaatkan tembolok (*cache*) dan akan otomatis mengunduh aset statis (kurang dari 500kb) pada kunjungan pertama. Jadi selama Anda tidak menghapus tembolok di peramban, Anda selalu bisa mengakses konten di versi web/aplikasi tanpa internet.
+Secara teknis, jika peramban Anda mendukung, versi web dan aplikasi sama-sama menerapkan mode luring. Keduanya memanfaatkan tembolok (*cache*) dan akan otomatis mengunduh aset statis (kurang dari 500KB) pada kunjungan pertama. Jadi selama Anda tidak menghapus tembolok di peramban, Anda selalu bisa mengakses konten di versi web/aplikasi tanpa internet.
 
 Catatan: mode luring hanya menyimpan laman internal. Semua tautan eksternal tidak akan aktif di mode luring.
 
 ---
 
-### Pelepasan
-
-Untuk ponsel, hapus seperti menghapus aplikasi biasa. Untuk Windows, hapus lewat Control Panel (menghapus lewat Desktop hanya menghapus pintasan).
-
----
-
 ### Pengembangan
 
-PUEBI AWP dirakit menggunakan [Docusaurus v2](https://v2.docusaurus.io). Untuk mengembangkan secara lokal, Anda butuh [NodeJS](https://nodejs.org) dan [Yarn](https://classic.yarnpkg.com) terpasang di komputer.
+PUEBI Daring dirakit menggunakan [Docusaurus v2](https://v2.docusaurus.io). Untuk mengembangkan secara lokal, Anda butuh [NodeJS](https://nodejs.org) dan [Yarn](https://classic.yarnpkg.com) terpasang di komputer.
 
 ```
 $ git clone https://github.com/gipsterya/puebi.git
 $ cd puebi
-$ yarn install
-$ yarn dev
+$ yarn
+$ yarn start
 ```
 
 Secara otomatis peramban akan masuk ke `http://localhost:3000` untuk memulai mode pengembangan.
 
-Konten ditulis dalam format [MDX](https://mdxjs.com) (Markdown + JSX). Antarmuka ditulis menggunakan [React](https://reactjs.org).
+Konten ditulis dalam format [MDX](https://mdxjs.com) (Markdown + JSX).
 
 ---
 
 ### Hak Cipta dan Lisensi
 
 Hak cipta PUEBI dimiliki oleh Badan Pengembangan dan Pembinaan Bahasa Republik Indonesia. 
-Seluruh konten dalam situs PUEBI AWP dilisensikan di bawah [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.id) (turunan lisensi dari [Ivan Lanin](https://github.com/ivanlanin/puebi)). 
+Seluruh konten dalam situs PUEBI Daring dilisensikan di bawah [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.id) (turunan lisensi dari [Ivan Lanin](https://github.com/ivanlanin/puebi)). 
 Kode sumber dilisensikan di bawah [Lisensi MIT](LICENSE).
