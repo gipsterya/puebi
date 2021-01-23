@@ -42,7 +42,7 @@ Catatan: mode luring hanya menyimpan laman internal. Semua tautan eksternal tida
 
 ### Pengembangan
 
-PUEBI Daring dirakit menggunakan [Docusaurus v2](https://v2.docusaurus.io). Untuk mengembangkan secara lokal, Anda butuh [NodeJS](https://nodejs.org) dan [Yarn](https://classic.yarnpkg.com) terpasang di komputer.
+PUEBI Daring dirakit menggunakan [Docusaurus v2](https://v2.docusaurus.io). Untuk mengembangkan secara lokal, Anda butuh [Node.js](https://nodejs.org) dan [Yarn](https://classic.yarnpkg.com) terpasang di komputer.
 
 ```
 $ git clone https://github.com/gipsterya/puebi.git
