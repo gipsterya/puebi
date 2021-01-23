@@ -11,17 +11,17 @@
     "url": "https://github.com/gipsterya/puebi"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-alpha.70",
-    "@docusaurus/plugin-pwa": "2.0.0-alpha.70",
-    "@docusaurus/preset-classic": "2.0.0-alpha.70",
-    "@mdx-js/react": "1.6.22",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "@docusaurus/core": "^2.0.0-alpha.70",
+    "@docusaurus/plugin-pwa": "^2.0.0-alpha.70",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.70",
+    "@mdx-js/react": "^1.6.22",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "eslint": "7.16.0",
-    "eslint-plugin-react": "7.22.0",
-    "prettier": "2.2.1"
+    "eslint": "^7.18.0",
+    "eslint-plugin-react": "^7.22.0",
+    "prettier": "^2.2.1"
   },
   "scripts": {
     "docusaurus": "docusaurus",
