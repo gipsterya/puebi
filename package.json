@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.13.8",
+    "@babel/plugin-proposal-object-rest-spread": "^7.13.8",
     "@babel/plugin-transform-react-jsx": "^7.12.17",
     "eslint": "^7.18.0",
     "eslint-plugin-react": "^7.22.0",
