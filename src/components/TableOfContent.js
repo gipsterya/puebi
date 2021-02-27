@@ -1,12 +1,10 @@
-import React from 'react'
 import useTOCHighlight from '../hooks/useTOCHighlight'
 
 const LINK_CLASS_NAME = 'table-of-contents__link'
 const ACTIVE_LINK_CLASS_NAME = 'table-of-contents__link--active'
 const TOP_OFFSET = 100
 
-/* eslint-disable jsx-a11y/control-has-associated-label */
-function Headings({headings, isChild}) {
+function Headings({ headings, isChild }) {
   if (!headings.length) {
     return null
   }
@@ -31,7 +29,7 @@ function Headings({headings, isChild}) {
   )
 }
 
-function TOC({headings}) {
+function TOC({ headings }) {
   useTOCHighlight(LINK_CLASS_NAME, ACTIVE_LINK_CLASS_NAME, TOP_OFFSET)
   return (
     <div className='thin-scrollbar'>

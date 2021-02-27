@@ -1,18 +1,12 @@
-import {useEffect, useState} from 'react'
+import { useEffect, useState } from 'react'
 
-function useTOCHighlight(
-  linkClassName: string,
-  linkActiveClassName: string,
-  topOffset: number,
-): void {
-  const [lastActiveLink, setLastActiveLink] = useState<HTMLAnchorElement>(
-    undefined!,
-  )
+function useTOCHighlight({ linkClassName, linkActiveClassName, topOffset }) {
+  const [lastActiveLink, setLastActiveLink] = useState()
 
   useEffect(() => {
     function setActiveLink() {
-      function getActiveHeaderAnchor(): Element | null {
-        const headersAnchors: Element[] = Array.from(
+      function getActiveHeaderAnchor() {
+        const headersAnchors = from(
           document.getElementsByClassName('anchor'),
         )
 
@@ -46,7 +40,7 @@ function useTOCHighlight(
         let index = 0
         let itemHighlighted = false
 
-        const links: HTMLCollectionOf<HTMLAnchorElement> = document.getElementsByClassName(
+        const links = document.getElementsByClassName(
           linkClassName,
         )
         while (index < links.length && !itemHighlighted) {

@@ -1,4 +1,3 @@
-import React from 'react'
 import Head from '@docusaurus/Head'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Paginator from '../components/Paginator'
@@ -31,7 +30,6 @@ function DocItem(props) {
         <html lang="id" />
         <meta name="docusaurus_language" content="id" />
         <title>{title}</title>
-        <meta name="keywords" content={config.keywords} />
         <meta name="description" content={config.siteDesc} />
         {permalink && <link rel="canonical" href={siteUrl + permalink} />}
         <meta name="google-site-verification" content="IpXgI6VHJp_iaoYLH3gCQ4n2kqF83E2WthOjGv6pQl0" />
