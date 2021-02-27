@@ -11,7 +11,6 @@ module.exports = {
       '@docusaurus/plugin-pwa',
       {
         debug: false,
-        swCustom: require.resolve('./src/utils/sw.js'),
         reloadPopup: require.resolve('./src/theme/PwaReloadPopup.js'),
         offlineModeActivationStrategies: ['always', 'queryString'],
         pwaHead: [
@@ -104,12 +103,14 @@ module.exports = {
     [
       '@docusaurus/preset-classic',
       {
+        blog: false,
         docs: {
           path: 'docs',
           routeBasePath: '/',
           docItemComponent: require.resolve('./src/theme/DocItem.js'),
           sidebarPath: require.resolve('./src/components/Sidebar.js'),
         },
+        pages: false,
         theme: {
           customCss: require.resolve('./src/theme/main.css'),
         },

@@ -28,24 +28,25 @@ function DocItem(props) {
     <>
       <Head>
         <html lang="id" />
+        <meta name="docusaurus_locale" content="id" />
         <meta name="docusaurus_language" content="id" />
         <title>{title}</title>
-        <meta name="description" content={config.siteDesc} />
+        <meta name="description" content={config.siteDescription} />
         {permalink && <link rel="canonical" href={siteUrl + permalink} />}
         <meta name="google-site-verification" content="IpXgI6VHJp_iaoYLH3gCQ4n2kqF83E2WthOjGv6pQl0" />
 
         <meta property="og:title" content={title} />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="id_ID" />
-        <meta property="og:description" content={config.siteDesc} />
+        <meta property="og:description" content={config.siteDescription} />
         {permalink && <meta property="og:url" content={siteUrl + permalink} />}
-        <meta property="og:image" content={`${config.siteUrl}${config.pathPrefix}${config.siteBanner}`} />
+        <meta property="og:image" content={`${config.siteUrl}${config.socialCard}`} />
         
         <meta property="twitter:title" content={title} />
         <meta property="twitter:creator" content={config.creatorName} />
-        <meta property="twitter:description" content={config.siteDesc} />
+        <meta property="twitter:description" content={config.siteDescription} />
         {permalink && <meta property="twitter:url" content={siteUrl + permalink} />}
-        <meta property="twitter:image" content={`${config.siteUrl}${config.pathPrefix}${config.siteBanner}`} />
+        <meta property="twitter:image" content={`${config.siteUrl}${config.socialCard}`} />
       </Head>
 
       <div className="row">

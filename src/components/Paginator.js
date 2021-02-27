@@ -4,7 +4,7 @@ function Paginator(props) {
   const {metadata} = props
 
   return (
-    <nav className="pagination-nav" aria-label="Blog list page navigation">
+    <nav className="pagination-nav" aria-label="Page navigation">
       <div className="pagination-nav__item">
         {metadata.previous && (
           <Link

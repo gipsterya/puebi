@@ -1,10 +1,8 @@
 const config = {
   siteTitle: 'PUEBI Daring',
-  siteDesc: 'Pedoman Umum Ejaan Bahasa Indonesia',
-  siteLogo: 'images/logo.png',
-  siteBanner: 'images/banner.png',
+  siteDescription: 'Pedoman Umum Ejaan Bahasa Indonesia',
   siteUrl: 'https://puebi.js.org',
-  pathPrefix: '/',
+  socialCard: '/images/banner.png',
   creatorName: '@gipsterya',
 }
 
