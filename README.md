@@ -7,7 +7,7 @@
 
 Proyek ini adalah pengembangan dari PUEBI Daring buatan [Ivan Lanin](https://github.com/ivanlanin/puebi) dengan penambahan fitur dan penerapan [web modern](https://jamstack.org/what-is-jamstack/).
 
-Ini tersedia dalam bentuk web, tetapi dirancang khusus untuk dijalankan sebagai aplikasi. PUEBI Daring bisa dipasang di ponsel maupun komputer.
+Ini tersedia dalam bentuk web, tetapi dirancang untuk dijalankan sebagai [Aplikasi Web Progresif](https://web.dev/what-are-pwas/). PUEBI Daring bisa dipasang di ponsel maupun komputer.
 
 ---
 
@@ -36,7 +36,7 @@ Peramban yang didukung:
 
 Secara teknis, jika peramban Anda mendukung, versi web dan aplikasi sama-sama menerapkan mode luring. Keduanya memanfaatkan tembolok (*cache*) dan akan otomatis mengunduh aset statis (kurang dari 500KB) pada kunjungan pertama. Jadi selama Anda tidak menghapus tembolok di peramban, Anda selalu bisa mengakses konten di versi web/aplikasi tanpa internet.
 
-Catatan: mode luring hanya menyimpan laman internal. Semua tautan eksternal tidak akan aktif di mode luring.
+**Catatan**: mode luring hanya menyimpan laman internal. Semua tautan eksternal tidak akan aktif di mode luring.
 
 ---
 
@@ -53,7 +53,7 @@ $ yarn start
 
 Secara otomatis peramban akan masuk ke `http://localhost:3000` untuk memulai mode pengembangan.
 
-Konten ditulis dalam format [MDX](https://mdxjs.com) (Markdown + JSX).
+Antarmuka ditulis dengan [React](https://reactjs.org). Konten ditulis dalam format [MDX](https://mdxjs.com).
 
 ---
 
