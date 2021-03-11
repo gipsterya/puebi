@@ -1,9 +1,9 @@
 module.exports = {
   presets: [
-    ['@docusaurus/core/lib/babel/preset']
+    [require.resolve('@docusaurus/core/lib/babel/preset')]
   ],
   plugins: [
-    ['@babel/plugin-transform-react-jsx', {
+    [require.resolve('@babel/plugin-transform-react-jsx'), {
       'runtime': 'automatic'
     }]
   ],
