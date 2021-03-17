@@ -2,19 +2,24 @@ module.exports = {
   plugins: [
     "react"
   ],
+  rules: {
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off"
+  },
   env: {
-    es6: true,
-    browser: true,
+    "es6": true,
+    "browser": true
   },
   parserOptions: {
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true,
-      "browser": true,
-    },
+      "browser": true
+    }
   },
-  rules: {
-    "react/jsx-uses-react": "off",
-    "react/react-in-jsx-scope": "off",
-  },
+  settings: {
+    "react": {
+      "version": "detect"
+    }
+  }
 }
