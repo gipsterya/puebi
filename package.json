@@ -17,18 +17,18 @@
     "start": "docusaurus start"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.73",
-    "@docusaurus/plugin-pwa": "^2.0.0-alpha.73",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.73",
+    "@docusaurus/core": "^2.0.0-alpha.75",
+    "@docusaurus/plugin-pwa": "^2.0.0-alpha.75",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.75",
     "@mdx-js/react": "^1.6.22",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.13.16",
+    "@babel/core": "^7.14.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.13.8",
     "@babel/plugin-transform-react-jsx": "^7.13.12",
-    "eslint": "^7.24.0",
+    "eslint": "^7.26.0",
     "eslint-plugin-react": "^7.23.2",
     "prettier": "^2.2.1"
   },
