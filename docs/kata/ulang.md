@@ -44,4 +44,5 @@ Misalnya:
 
 - Ia menyajikan makalah "Penerapan *A*sas-*A*sas Hukum Perdata".
 - Slogan "*T*erus-*m*enerus *R*amah-*t*amah" dikampanyekan gubernur baru itu.
-  </Note>
+
+</Note>
