@@ -1,46 +1,44 @@
 {
   "name": "puebi",
   "description": "pedoman umum ejaan bahasa indonesia",
-  "homepage": "https://puebi.js.org",
   "author": "gigip andreas <gigip@gipsterya.com>",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "license": "MIT",
   "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/gipsterya/puebi.git"
   },
-  "scripts": {
-    "docusaurus": "docusaurus",
-    "build": "docusaurus build",
-    "serve": "docusaurus serve",
-    "start": "docusaurus start"
-  },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.75",
-    "@docusaurus/plugin-pwa": "^2.0.0-alpha.75",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.75",
-    "@mdx-js/react": "^1.6.22",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "next": "^13.1.1",
+    "next-mdx-remote": "^4.2.1",
+    "next-pwa": "^5.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.0",
-    "@babel/plugin-proposal-object-rest-spread": "^7.13.8",
-    "@babel/plugin-transform-react-jsx": "^7.13.12",
-    "eslint": "^7.26.0",
-    "eslint-plugin-react": "^7.23.2",
-    "prettier": "^2.2.1"
+    "@tailwindcss/typography": "^0.5.8",
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.26",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.31.0",
+    "eslint-config-next": "^13.1.1",
+    "gray-matter": "^4.0.3",
+    "netlify-cli": "^12.5.0",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.2",
+    "prettier-plugin-tailwindcss": "^0.2.1",
+    "rehype-preset-minify": "^6.0.0",
+    "remark-gfm": "^3.0.1",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.4"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "lint": "next lint --fix src --cache --cache-location .next/",
+    "format": "prettier --write --cache docs && prettier --write --cache src"
   }
 }
